@@ -6,7 +6,7 @@ Uma calculadora de IMC simples, responsiva e funcional, feita com **HTML**, **CS
 
 ## 📸 Preview
 
-![Calculadora de IMC](./screenshot.png) <!-- Substitua pela imagem do seu projeto -->
+![Calculadora de IMC](./assets/calculadora-imc.png)
 
 ---
 
@@ -18,6 +18,8 @@ Uma calculadora de IMC simples, responsiva e funcional, feita com **HTML**, **CS
 - ✅ Interface clara e responsiva
 - ✅ Envio dos dados para um backend (opcional)
 - ✅ Botão de consulta via WhatsApp
+
+![Calculadora de IMC](./assets/imc-calculado.png)
 
 ---
 
@@ -35,3 +37,4 @@ Uma calculadora de IMC simples, responsiva e funcional, feita com **HTML**, **CS
 
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
