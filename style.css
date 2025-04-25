@@ -4,12 +4,79 @@ body {
   background-color: black;
   font-family: Arial, sans-serif;
 }
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between; /* 👉 separa logo e menu */
+  align-items: center;
+  
+  background-color: transparent;
+  height: 60px;
+  padding: 0 30px; /* 👉 espaçamento lateral */
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px; /* Espaço entre os itens do menu */
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 198, 0);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: rgb(255, 198, 0);
+  color: black;
+}
+
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* altura total da tela */
   padding: 20px;
+}
+h1{
+  color: rgb(255, 198, 0);
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px; /* Espaço entre texto e calculadora */
+  padding: 20px;
+}
+
+/* Estilo do bloco de texto */
+.texto-imc {
+  max-width: 400px;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 2.5;
+}
+
+.texto-imc h1 {
+  color: rgb(255, 198, 0);
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.texto-imc p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  text-align: justify;
 }
 
 .container {
