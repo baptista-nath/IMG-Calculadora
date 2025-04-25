@@ -1,4 +1,4 @@
-# IMG-Calculadora
+# IMC-Calculadora
 Calculadora de IMG
 # 🧮 Calculadora de IMC
 
